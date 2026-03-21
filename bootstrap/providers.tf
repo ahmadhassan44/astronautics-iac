@@ -5,9 +5,9 @@ terraform {
       version = "~> 6.0"
     }
   }
+  # No backend block here. It uses local state.
 }
 
-# Configure the AWS Provider
 provider "aws" {
-  region = "fLseUTB9xbh9jSHyXyB/M0aiVeQs/vCDnXVDE+pr"
+  region = "us-east-1"
 }
